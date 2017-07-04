@@ -1,0 +1,14 @@
+D:\Shraddha\RetailApp\ATOZ\CodeFirstEntities\bin\Debug\CodeFirstEntities.dll
+D:\Shraddha\RetailApp\ATOZ\CodeFirstEntities\bin\Debug\CodeFirstEntities.pdb
+D:\Shraddha\RetailApp\ATOZ\CodeFirstEntities\obj\Debug\CodeFirstEntities.dll
+D:\Shraddha\RetailApp\ATOZ\CodeFirstEntities\obj\Debug\CodeFirstEntities.pdb
+D:\RetailApp\ATOZ\CodeFirstEntities\bin\Debug\CodeFirstEntities.dll
+D:\RetailApp\ATOZ\CodeFirstEntities\bin\Debug\CodeFirstEntities.pdb
+D:\RetailApp\ATOZ\CodeFirstEntities\obj\Debug\CodeFirstEntities.csprojResolveAssemblyReference.cache
+D:\RetailApp\ATOZ\CodeFirstEntities\obj\Debug\CodeFirstEntities.dll
+D:\RetailApp\ATOZ\CodeFirstEntities\obj\Debug\CodeFirstEntities.pdb
+E:\pritu\RetailBuzz\ATOZ\CodeFirstEntities\bin\Debug\CodeFirstEntities.dll
+E:\pritu\RetailBuzz\ATOZ\CodeFirstEntities\bin\Debug\CodeFirstEntities.pdb
+E:\pritu\RetailBuzz\ATOZ\CodeFirstEntities\obj\Debug\CodeFirstEntities.csprojResolveAssemblyReference.cache
+E:\pritu\RetailBuzz\ATOZ\CodeFirstEntities\obj\Debug\CodeFirstEntities.dll
+E:\pritu\RetailBuzz\ATOZ\CodeFirstEntities\obj\Debug\CodeFirstEntities.pdb

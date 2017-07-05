@@ -111,9 +111,17 @@ namespace MvcRetailApp.Controllers
             return View(model);
         }
 
+        [HttpGet]
         public ActionResult Edit()
         {
-            return View();
+            MainApplication model = new MainApplication();
+            model.userCredentialList = _IUserCredentialService.GetUserCredentialsByEmail(UserEmail);
+            model.modulelist = _iIModuleService.getAllModules();
+            model.CompanyCode = CompanyCode;
+            model.CompanyName = CompanyName;
+            model.FinancialYear = FinancialYear;
+            TempData["ViewType"] = "Edit";
+            return View(model);
         }
 
     }

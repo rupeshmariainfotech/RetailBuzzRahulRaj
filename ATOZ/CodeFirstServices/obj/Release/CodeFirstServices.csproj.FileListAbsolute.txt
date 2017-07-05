@@ -41,3 +41,14 @@ E:\pritu\RetailBuzz\ATOZ\CodeFirstServices\bin\Release\EntityFramework.xml
 E:\pritu\RetailBuzz\ATOZ\CodeFirstServices\obj\Release\CodeFirstServices.csprojResolveAssemblyReference.cache
 E:\pritu\RetailBuzz\ATOZ\CodeFirstServices\obj\Release\CodeFirstServices.dll
 E:\pritu\RetailBuzz\ATOZ\CodeFirstServices\obj\Release\CodeFirstServices.pdb
+C:\Users\developer\Source\Repos\RetailBuzzRahulRaj\ATOZ\CodeFirstServices\bin\Release\CodeFirstServices.dll
+C:\Users\developer\Source\Repos\RetailBuzzRahulRaj\ATOZ\CodeFirstServices\bin\Release\CodeFirstServices.pdb
+C:\Users\developer\Source\Repos\RetailBuzzRahulRaj\ATOZ\CodeFirstServices\bin\Release\CodeFirstData.dll
+C:\Users\developer\Source\Repos\RetailBuzzRahulRaj\ATOZ\CodeFirstServices\bin\Release\CodeFirstEntities.dll
+C:\Users\developer\Source\Repos\RetailBuzzRahulRaj\ATOZ\CodeFirstServices\bin\Release\EntityFramework.dll
+C:\Users\developer\Source\Repos\RetailBuzzRahulRaj\ATOZ\CodeFirstServices\bin\Release\CodeFirstData.pdb
+C:\Users\developer\Source\Repos\RetailBuzzRahulRaj\ATOZ\CodeFirstServices\bin\Release\CodeFirstEntities.pdb
+C:\Users\developer\Source\Repos\RetailBuzzRahulRaj\ATOZ\CodeFirstServices\bin\Release\EntityFramework.xml
+C:\Users\developer\Source\Repos\RetailBuzzRahulRaj\ATOZ\CodeFirstServices\obj\Release\CodeFirstServices.csprojResolveAssemblyReference.cache
+C:\Users\developer\Source\Repos\RetailBuzzRahulRaj\ATOZ\CodeFirstServices\obj\Release\CodeFirstServices.dll
+C:\Users\developer\Source\Repos\RetailBuzzRahulRaj\ATOZ\CodeFirstServices\obj\Release\CodeFirstServices.pdb

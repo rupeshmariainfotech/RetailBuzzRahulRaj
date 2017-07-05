@@ -40,3 +40,14 @@ E:\pritu\RetailBuzz\ATOZ\CodeFirstData\bin\Debug\EntityFramework.xml
 E:\pritu\RetailBuzz\ATOZ\CodeFirstData\obj\Debug\CodeFirstData.csprojResolveAssemblyReference.cache
 E:\pritu\RetailBuzz\ATOZ\CodeFirstData\obj\Debug\CodeFirstData.dll
 E:\pritu\RetailBuzz\ATOZ\CodeFirstData\obj\Debug\CodeFirstData.pdb
+C:\Users\developer\Source\Repos\RetailBuzzRahulRaj\ATOZ\CodeFirstData\bin\Debug\CodeFirstData.dll.config
+C:\Users\developer\Source\Repos\RetailBuzzRahulRaj\ATOZ\CodeFirstData\bin\Debug\CodeFirstData.dll
+C:\Users\developer\Source\Repos\RetailBuzzRahulRaj\ATOZ\CodeFirstData\bin\Debug\CodeFirstData.pdb
+C:\Users\developer\Source\Repos\RetailBuzzRahulRaj\ATOZ\CodeFirstData\bin\Debug\CodeFirstEntities.dll
+C:\Users\developer\Source\Repos\RetailBuzzRahulRaj\ATOZ\CodeFirstData\bin\Debug\EntityFramework.dll
+C:\Users\developer\Source\Repos\RetailBuzzRahulRaj\ATOZ\CodeFirstData\bin\Debug\System.Web.dll
+C:\Users\developer\Source\Repos\RetailBuzzRahulRaj\ATOZ\CodeFirstData\bin\Debug\CodeFirstEntities.pdb
+C:\Users\developer\Source\Repos\RetailBuzzRahulRaj\ATOZ\CodeFirstData\bin\Debug\EntityFramework.xml
+C:\Users\developer\Source\Repos\RetailBuzzRahulRaj\ATOZ\CodeFirstData\obj\Debug\CodeFirstData.csprojResolveAssemblyReference.cache
+C:\Users\developer\Source\Repos\RetailBuzzRahulRaj\ATOZ\CodeFirstData\obj\Debug\CodeFirstData.dll
+C:\Users\developer\Source\Repos\RetailBuzzRahulRaj\ATOZ\CodeFirstData\obj\Debug\CodeFirstData.pdb

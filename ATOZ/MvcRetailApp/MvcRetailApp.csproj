@@ -24,6 +24,7 @@
     <SccLocalPath>SAK</SccLocalPath>
     <SccAuxPath>SAK</SccAuxPath>
     <SccProvider>SAK</SccProvider>
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -1119,6 +1120,7 @@
     <Content Include="Views\Unit\EditPartial.cshtml" />
     <Content Include="Views\Unit\GetUnitNameList.cshtml" />
     <Content Include="Views\Unit\ShowUnit.cshtml" />
+    <Content Include="Views\ClientLead\Edit.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

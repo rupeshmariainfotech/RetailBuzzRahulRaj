@@ -7,7 +7,7 @@ using System;
 
 namespace CodeFirstServices.Services
 {
-    public class StateService: IStateService
+    public class StateService : IStateService
     {
         private readonly IStateRepository _stateRepository;
         private readonly IUnitOfWork _unitOfWork;
@@ -41,7 +41,7 @@ namespace CodeFirstServices.Services
         }
         public int GetStateIdByName(string name)
         {
-            var id = _stateRepository.Get(m => m.StateName== name);
+            var id = _stateRepository.Get(m => m.StateName == name);
             return id.Stateid;
         }
 

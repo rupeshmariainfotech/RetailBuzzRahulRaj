@@ -71,22 +71,22 @@
 <script type="text/javascript" src="@Url.Content("~/Scripts/jsDatePick.jquery.min.1.3.js")"></script>
 
 @*<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-  <link rel="stylesheet" href="/resources/demos/style.css">
-  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <link rel="stylesheet" href="/resources/demos/style.css">*@
+  @*<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>*@
 
 <link href="~/Content/customAlerts.css" rel="stylesheet" />
 <script src="~/Scripts/bootbox.js"></script>
 
-@* <script>
+ <script>
   $( function() {
     $( "#datepicker" ).datepicker({
       changeMonth: true,
       changeYear: true
     });
   } );
-  </script>*@
-<script type="text/javascript">
+  </script>
+@*<script type="text/javascript">
     $(document).ready(function () {
         var data = new JsDatePick({
             useMode: 2,
@@ -101,7 +101,7 @@
             //var birthDate = new Date(birth);
         });
     });
-</script>
+</script>*@
 
 <!-- Start: Header -->
 @Html.Partial("../Shared/Header")
@@ -169,19 +169,24 @@
                                         @Html.ValidationMessageFor(model=>model.ClientLeads.Date,null,new {style= "color:red", @id = "date" })
                                         <label id="errorname" class="error" style="display: none"></label>
                                     </div>
-                                     <div class="form-group row">
+                                     @*<div class="form-group row">
                                         <label for="exampleInputname">Schedule Date<i style="color: red">*</i></label>
                                         @Html.TextBoxFor(model => model.ClientLeads.ScheduleDate, new {@placeholder="ScheduleDate",@class="form-control",@onkeypress = "return false", @autocomplete = "off" ,@id="datepicker"})
+                                        
                                         @Html.ValidationMessageFor(model=>model.ClientLeads.ScheduleDate,null,new {style= "color:red", @id = "datepicker" })
                                         <label id="errorname" class="error" style="display: none"></label>
+                                    </div>*@
+                                    <div class="form-group row">
+                                        <label for="exampleInputname">Schedule Date<i style="color: red">*</i></label>`
+                                        @Html.TextBox("ScheduleDate", Model.ClientLeads.ScheduleDate, new { @class = "datepicker", @type = "date", @onkeypress = "return false", @autocomplete = "off",@style="height:35px; width:590px;" })
                                     </div>
-                                     <div class="form-group row">
-                                        <label for="exampleInputname">Remark<i style="color: red">*</i></label>
-                                        @Html.TextBoxFor(model => model.ClientLeads.Remark, new {@placeholder="Remark",@class="form-control" })
-                                        @Html.ValidationMessageFor(model=>model.ClientLeads.Remark,null,new {style= "color:red", @id = "remark" })
-                                        <label id="errorname" class="error" style="display: none"></label>
+                                        <div class="form-group row">
+                                            <label for="exampleInputname">Remark<i style="color: red">*</i></label>
+                                            @Html.TextBoxFor(model => model.ClientLeads.Remark, new { @placeholder = "Remark", @class = "form-control" })
+                                            @Html.ValidationMessageFor(model => model.ClientLeads.Remark, null, new { style = "color:red", @id = "remark" })
+                                            <label id="errorname" class="error" style="display: none"></label>
+                                        </div>
                                     </div>
-                                </div>
                             </div>
                         </div>
                     </div>

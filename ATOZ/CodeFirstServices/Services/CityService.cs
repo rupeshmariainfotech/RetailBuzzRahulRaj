@@ -8,7 +8,7 @@ using System;
 
 namespace CodeFirstServices.Services
 {
-    public class CityService: ICityService
+    public class CityService : ICityService
     {
         private readonly ICityRepository _cityRepository;
         private readonly IUnitOfWork _unitOfWork;
@@ -32,7 +32,7 @@ namespace CodeFirstServices.Services
         public IEnumerable<City> GetCityByState(int id)
         {
             var citylist = _cityRepository.GetMany(city => city.stateId == id);
-            return citylist;    
+            return citylist;
         }
         public string GetCityNamebyId(int id)
         {

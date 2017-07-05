@@ -16,8 +16,14 @@ namespace CodeFirstEntities
         [Display(Name = "Name")]
         public string ClientName { get; set; }
         [Required]
-        [Display(Name = "ContactNo1")]
+        [Display(Name = "ContactNo1")]    
+        [Range(1000000, 99999999999999, ErrorMessage = "Contact No 1 should be between 7 and 14")]
+      
         public string ContactNo1 { get; set; }
+        [Required]
+        [Display(Name = "ContactNo2")]
+        [Range(1000000, 99999999999999, ErrorMessage = "Contact No 1 should be between 7 and 14")]
+
         public string ContactNo2 { get; set; }
         [Required]
         [Display(Name = "Address")]
@@ -29,7 +35,8 @@ namespace CodeFirstEntities
         public DateTime? Date { get; set; }
         [Required]
         public DateTime? ScheduleDate { get; set; }
-
+        [Required]
+        [Display(Name = "Remark")]
         public string Remark { get; set; }
 
     }

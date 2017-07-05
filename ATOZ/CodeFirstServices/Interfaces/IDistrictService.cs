@@ -7,11 +7,11 @@ using CodeFirstEntities;
 
 namespace CodeFirstServices.Interfaces
 {
-   public interface IDistrictService
+    public interface IDistrictService
     {
-       IEnumerable<District> getalldistricts();
-       IEnumerable<District> getDistrictbyState(int id);
-       string GetDistrictNamebyId(int id);
-      
+        IEnumerable<District> getalldistricts();
+        IEnumerable<District> getDistrictbyState(int id);
+        string GetDistrictNamebyId(int id);
+
     }
 }

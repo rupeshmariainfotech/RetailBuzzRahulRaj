@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CodeFirstServices.Interfaces
 {
-   public interface ICityService
+    public interface ICityService
     {
         IEnumerable<City> getAllCities();
         City GetCitybyId(int id);

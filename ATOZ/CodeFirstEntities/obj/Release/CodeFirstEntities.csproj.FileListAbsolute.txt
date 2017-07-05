@@ -17,6 +17,11 @@ E:\pritu\RetailBuzz\ATOZ\CodeFirstEntities\bin\Release\CodeFirstEntities.pdb
 E:\pritu\RetailBuzz\ATOZ\CodeFirstEntities\obj\Release\CodeFirstEntities.csprojResolveAssemblyReference.cache
 E:\pritu\RetailBuzz\ATOZ\CodeFirstEntities\obj\Release\CodeFirstEntities.dll
 E:\pritu\RetailBuzz\ATOZ\CodeFirstEntities\obj\Release\CodeFirstEntities.pdb
+C:\Users\developer2\Source\Repos\RetailBuzzRahulRaj\ATOZ\CodeFirstEntities\bin\Release\CodeFirstEntities.dll
+C:\Users\developer2\Source\Repos\RetailBuzzRahulRaj\ATOZ\CodeFirstEntities\bin\Release\CodeFirstEntities.pdb
+C:\Users\developer2\Source\Repos\RetailBuzzRahulRaj\ATOZ\CodeFirstEntities\obj\Release\CodeFirstEntities.csprojResolveAssemblyReference.cache
+C:\Users\developer2\Source\Repos\RetailBuzzRahulRaj\ATOZ\CodeFirstEntities\obj\Release\CodeFirstEntities.dll
+C:\Users\developer2\Source\Repos\RetailBuzzRahulRaj\ATOZ\CodeFirstEntities\obj\Release\CodeFirstEntities.pdb
 C:\Users\developer\Source\Repos\RetailBuzzRahulRaj\ATOZ\CodeFirstEntities\bin\Release\CodeFirstEntities.dll
 C:\Users\developer\Source\Repos\RetailBuzzRahulRaj\ATOZ\CodeFirstEntities\bin\Release\CodeFirstEntities.pdb
 C:\Users\developer\Source\Repos\RetailBuzzRahulRaj\ATOZ\CodeFirstEntities\obj\Release\CodeFirstEntities.csprojResolveAssemblyReference.cache

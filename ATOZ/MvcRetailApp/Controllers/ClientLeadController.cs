@@ -20,6 +20,7 @@ namespace MvcRetailApp.Controllers
     [SessionExpireFilter]
     public class ClientLeadController : Controller
     {
+       
         private string UserEmail
         {
             get { return (string)HttpContext.Session["UserEmail"]; }
@@ -50,11 +51,13 @@ namespace MvcRetailApp.Controllers
         private readonly IClientBankDetailService _ClientBankDetailService;
         private readonly IUserCredentialService _IUserCredentialService;
         private readonly IModuleService _iIModuleService;
+        private readonly IClientLeadService _ClientLeadService;
+
 
 
         public ClientLeadController(IClientMasterService ClientMasterService, ICountryService CountryService, IStateService StateService,
             IDistrictService DistrictService, IBankService BankService, IBankNameService BankNameService, IUtilityService UtilityService, IUserCredentialService usercredentialservice, IModuleService iIModuleService,
-            IClientBankDetailService ClientBankDetailService)
+            IClientBankDetailService ClientBankDetailService, IClientLeadService ClientLeadService)
         {
             this._ClientMasterService = ClientMasterService;
             this._CountryService = CountryService;
@@ -66,6 +69,8 @@ namespace MvcRetailApp.Controllers
             this._ClientBankDetailService = ClientBankDetailService;
             this._IUserCredentialService = usercredentialservice;
             this._iIModuleService = iIModuleService;
+            this._ClientLeadService = ClientLeadService;
+
         }
 
         [AttributeUsage(AttributeTargets.Class | AttributeTargets.Method)]
@@ -110,6 +115,51 @@ namespace MvcRetailApp.Controllers
             model.FinancialYear = FinancialYear;
             return View(model);
         }
+
+
+
+
+
+        [HttpPost]
+        public ActionResult Create(MainApplication model,FormCollection frm)
+        {
+            MainApplication mainapp = new MainApplication()
+            {
+                user = new User(),
+            };
+
+          
+
+                ClientLead obj = new ClientLead();
+                obj.ClientName = model.ClientLeads.ClientName;
+                obj.ContactNo1 = model.ClientLeads.ContactNo1;
+                obj.ContactNo2 = model.ClientLeads.ContactNo2;
+                obj.Address = model.ClientLeads.Address;
+                obj.Requriment = model.ClientLeads.Requriment;
+                obj.Date = System.DateTime.Now;
+                obj.ScheduleDate = Convert.ToDateTime(frm.Get("ScheduleDate"));
+                obj.Remark = model.ClientLeads.Remark;
+
+                _ClientLeadService.CreateClientLead(obj);
+
+
+
+
+            //MainApplication model = new MainApplication()
+            //{
+            //    ClientLeads = new ClientLead()
+            //};
+            //model.ClientLeads.Date = System.DateTime.Now;
+            //model.userCredentialList = _IUserCredentialService.GetUserCredentialsByEmail(UserEmail);
+            //model.modulelist = _iIModuleService.getAllModules();
+            //model.CompanyCode = CompanyCode;
+            //model.CompanyName = CompanyName;
+            //model.FinancialYear = FinancialYear;
+            return RedirectToAction("Create");
+        }
+
+
+
 
         [HttpGet]
         public ActionResult Edit()
